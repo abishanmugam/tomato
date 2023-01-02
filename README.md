@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://work.xiejiahe.com">
+    <img src="public/poster.png" width="150" />
+  </a>
+  <br />
+  <b>Tomato Work 个人事务管理系统</b>
+  <p align="center">
+    <a href="https://github.com/xjh22222228/tomato-work-server">
+      <img alt="Server" src="https://img.shields.io/static/v1.svg?label=&message=Server&style=flat-square&color=e8883a">
+    </a>
+    <a href="https://github.com/xjh22222228/tomato-work/stargazers"><img src="https://img.shields.io/github/stars/xjh22222228/tomato-work" alt="Stars Badge"/></a>
+    <img alt="React" src="https://img.shields.io/static/v1.svg?label=&message=React&style=flat-square&color=61daeb">
+    <img src="https://img.shields.io/github/package-json/v/xjh22222228/tomato-work" />
+    <img src="https://img.shields.io/github/license/xjh22222228/tomato-work" />
+  </p>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Screenshot
 
-## Available Scripts
+![](media/screenshot.png)
 
-In the project directory, you can run:
+## Built with
 
-### `npm start`
+- [Hooks](https://zh-hans.reactjs.org/docs/hooks-intro.html)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Redux](https://redux.js.org/tutorials/fundamentals/part-5-ui-react)
+- [Ant Design](https://ant.design/docs/react/introduce-cn)
+- [Vite](https://vitejs.dev)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Todo list
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] github 登录
+- [x] 提醒事项
+- [x] 活动清单
+- [x] 今日待办
+- [x] 财务管理
+- [x] 公司单位
+- [x] 个人中心
+- [x] 我的备忘 - 支持 Markdown & WYSIWYG
+- [x] 站内消息
+- [x] 邮件推送 - (github 邮箱必须设为公开)
+- [x] 微信推送 - 感谢 Server 酱 (需要在个人中心设置 sckey)
+- [x] 日志管理
 
-### `npm test`
+## Build Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js >= 14
 
-### `npm run build`
+```bash
+# Clone
+git clone --depth=1 https://github.com/xjh22222228/tomato-work.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# install dependencies
+npm i
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# serve with hot reload at localhost:7000
+# user: test, password: 123456
+npm start
+npm run start:prod # Connect to production environment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# build for production with minification
+npm run build
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://opensource.org/licenses/MIT)
